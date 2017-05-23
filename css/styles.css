@@ -1,0 +1,165 @@
+/* Section Map
+-CSS Reset
+-General Helper Classes
+-GRIDLEX Reset
+-Universal Styles
+  Layout
+  Typography
+  General Styles
+-header footer
+-modular elements
+  element names
+forms
+
+--------
+Fonts:
+  Titles: font-family: 'Molle', cursive;
+  Body: font-family: 'Source Code Pro', monospace;
+
+Colors:
+  Black: #313632;
+  Main Green: #00794E;
+  Second Green: #329562;
+  Light Green: #91D6A6;
+  Off-white: #EDF4ED;
+
+
+background-image: linear-gradient(183deg, rgb(50, 149, 98) 25%, rgb(0, 121, 78) 70%);
+
+-------
+
+/* CSS Reset */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Helper Classes */
+.tall {min-height: 100vh;}
+.med-height {min-height: 50vh;}
+.short {min-height: 30vh;}
+
+.no-padding{ padding: 0;}
+
+.light-bg { background-color: #fefefe; }
+.dark-bg { background-color: #333333; }
+
+/*Gridlex RESET */
+[class*=col] {
+  padding: 0;
+}
+
+[class*=grid] {
+  margin: 0;
+}
+
+/* Universal Styles */
+/* Layout */
+header, footer {
+
+}
+
+/* General Styling */
+body{
+  background-image: linear-gradient(183deg, rgb(50, 149, 98) 25%, rgb(0, 121, 78) 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h3, h4, h5, h6{
+  font-family: 'Source Code Pro', monospace;
+  color: #b4b4b4;
+  font-size: 0.5rem;
+  padding: 2%;
+}
+
+h2{
+  font-family: 'Source Code Pro', monospace;
+  color: #565A57;
+  font-size: 1.25rem;
+  padding: 1%;
+}
+
+p{
+
+}
+
+a{
+  text-decoration: none;
+}
+
+i{
+  color: #565A57;
+}
+
+i:hover{
+  color: #00794E;
+}
+
+.button{
+
+}
+
+h1{
+  font-family: 'Molle', cursive;
+  color: #00794E;
+  font-size: 3rem;
+  letter-spacing: 0.06rem;
+  padding: 1%;
+}
+
+/* Header */
+header{
+
+}
+
+nav{
+
+}
+
+nav a{
+
+}
+
+/* Content */
+
+/* Big Box */
+.bigbox{
+  background-color: #ffffff;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.11) 0.29rem 0.24rem 0.25rem 0rem;
+  padding: 2%;
+}
+
+.profilepic{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  margin-top: 3%;
+  width: 45%;
+  height: 45%;
+  border-radius: 50%;
+}
+
+.divider{
+  width: 100%;
+  height: 1px;
+  background-color: #b4b4b4;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+/* Footer */
+footer {
+
+}
